@@ -13,7 +13,7 @@ def show_part_with_user(part, user):
 
     for line in all_lines:
         if len(line.strip()) > 0:
-            tm.sleep(0)
+            tm.sleep(5)
 
         if line.__contains__('{}'):
             print(line.format(user))
